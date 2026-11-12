@@ -1,0 +1,1481 @@
+{
+  "checkedAt": "2026-11-12T18:25:16.901Z",
+  "status": "passed",
+  "selfContainedData": true,
+  "mapMetric": "2006 median monthly gross rent",
+  "offshorePartsRemovedForDisplay": 2,
+  "baseline": [
+    {
+      "puma": "03801",
+      "rent": 834,
+      "fill": "rgb(176, 196, 196)"
+    },
+    {
+      "puma": "03802",
+      "rent": 795,
+      "fill": "rgb(182, 201, 201)"
+    },
+    {
+      "puma": "03803",
+      "rent": 647,
+      "fill": "rgb(204, 221, 218)"
+    },
+    {
+      "puma": "03804",
+      "rent": 560,
+      "fill": "rgb(218, 232, 229)"
+    },
+    {
+      "puma": "03805",
+      "rent": 1584,
+      "fill": "rgb(69, 105, 112)"
+    },
+    {
+      "puma": "03806",
+      "rent": 1337,
+      "fill": "rgb(103, 134, 139)"
+    },
+    {
+      "puma": "03807",
+      "rent": 1434,
+      "fill": "rgb(90, 122, 129)"
+    },
+    {
+      "puma": "03808",
+      "rent": 1565,
+      "fill": "rgb(71, 107, 114)"
+    },
+    {
+      "puma": "03809",
+      "rent": 773,
+      "fill": "rgb(185, 204, 203)"
+    },
+    {
+      "puma": "03810",
+      "rent": 1758,
+      "fill": "rgb(44, 85, 94)"
+    }
+  ],
+  "yearChecks": [
+    {
+      "year": 2007,
+      "marks": [
+        10,
+        10,
+        10
+      ],
+      "bounds": [
+        0,
+        0
+      ],
+      "labels": [],
+      "boundsStyle": [],
+      "yDomains": [
+        [
+          "-10",
+          "50"
+        ],
+        [
+          "-10",
+          "50"
+        ]
+      ],
+      "baseline": [
+        {
+          "puma": "03801",
+          "rent": 834,
+          "fill": "rgb(176, 196, 196)"
+        },
+        {
+          "puma": "03802",
+          "rent": 795,
+          "fill": "rgb(182, 201, 201)"
+        },
+        {
+          "puma": "03803",
+          "rent": 647,
+          "fill": "rgb(204, 221, 218)"
+        },
+        {
+          "puma": "03804",
+          "rent": 560,
+          "fill": "rgb(218, 232, 229)"
+        },
+        {
+          "puma": "03805",
+          "rent": 1584,
+          "fill": "rgb(69, 105, 112)"
+        },
+        {
+          "puma": "03806",
+          "rent": 1337,
+          "fill": "rgb(103, 134, 139)"
+        },
+        {
+          "puma": "03807",
+          "rent": 1434,
+          "fill": "rgb(90, 122, 129)"
+        },
+        {
+          "puma": "03808",
+          "rent": 1565,
+          "fill": "rgb(71, 107, 114)"
+        },
+        {
+          "puma": "03809",
+          "rent": 773,
+          "fill": "rgb(185, 204, 203)"
+        },
+        {
+          "puma": "03810",
+          "rent": 1758,
+          "fill": "rgb(44, 85, 94)"
+        }
+      ],
+      "note": "2007: all 10 rent-growth estimates have exact published medians."
+    },
+    {
+      "year": 2008,
+      "marks": [
+        10,
+        10,
+        10
+      ],
+      "bounds": [
+        0,
+        0
+      ],
+      "labels": [],
+      "boundsStyle": [],
+      "yDomains": [
+        [
+          "-10",
+          "50"
+        ],
+        [
+          "-10",
+          "50"
+        ]
+      ],
+      "baseline": [
+        {
+          "puma": "03801",
+          "rent": 834,
+          "fill": "rgb(176, 196, 196)"
+        },
+        {
+          "puma": "03802",
+          "rent": 795,
+          "fill": "rgb(182, 201, 201)"
+        },
+        {
+          "puma": "03803",
+          "rent": 647,
+          "fill": "rgb(204, 221, 218)"
+        },
+        {
+          "puma": "03804",
+          "rent": 560,
+          "fill": "rgb(218, 232, 229)"
+        },
+        {
+          "puma": "03805",
+          "rent": 1584,
+          "fill": "rgb(69, 105, 112)"
+        },
+        {
+          "puma": "03806",
+          "rent": 1337,
+          "fill": "rgb(103, 134, 139)"
+        },
+        {
+          "puma": "03807",
+          "rent": 1434,
+          "fill": "rgb(90, 122, 129)"
+        },
+        {
+          "puma": "03808",
+          "rent": 1565,
+          "fill": "rgb(71, 107, 114)"
+        },
+        {
+          "puma": "03809",
+          "rent": 773,
+          "fill": "rgb(185, 204, 203)"
+        },
+        {
+          "puma": "03810",
+          "rent": 1758,
+          "fill": "rgb(44, 85, 94)"
+        }
+      ],
+      "note": "2008: all 10 rent-growth estimates have exact published medians."
+    },
+    {
+      "year": 2009,
+      "marks": [
+        10,
+        10,
+        10
+      ],
+      "bounds": [
+        1,
+        1
+      ],
+      "labels": [
+        "10*",
+        "10*"
+      ],
+      "boundsStyle": [
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        },
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        }
+      ],
+      "yDomains": [
+        [
+          "-10",
+          "50"
+        ],
+        [
+          "-10",
+          "50"
+        ]
+      ],
+      "baseline": [
+        {
+          "puma": "03801",
+          "rent": 834,
+          "fill": "rgb(176, 196, 196)"
+        },
+        {
+          "puma": "03802",
+          "rent": 795,
+          "fill": "rgb(182, 201, 201)"
+        },
+        {
+          "puma": "03803",
+          "rent": 647,
+          "fill": "rgb(204, 221, 218)"
+        },
+        {
+          "puma": "03804",
+          "rent": 560,
+          "fill": "rgb(218, 232, 229)"
+        },
+        {
+          "puma": "03805",
+          "rent": 1584,
+          "fill": "rgb(69, 105, 112)"
+        },
+        {
+          "puma": "03806",
+          "rent": 1337,
+          "fill": "rgb(103, 134, 139)"
+        },
+        {
+          "puma": "03807",
+          "rent": 1434,
+          "fill": "rgb(90, 122, 129)"
+        },
+        {
+          "puma": "03808",
+          "rent": 1565,
+          "fill": "rgb(71, 107, 114)"
+        },
+        {
+          "puma": "03809",
+          "rent": 773,
+          "fill": "rgb(185, 204, 203)"
+        },
+        {
+          "puma": "03810",
+          "rent": 1758,
+          "fill": "rgb(44, 85, 94)"
+        }
+      ],
+      "note": "2009: PUMA 03810 ≥13.77%."
+    },
+    {
+      "year": 2010,
+      "marks": [
+        10,
+        10,
+        10
+      ],
+      "bounds": [
+        1,
+        1
+      ],
+      "labels": [
+        "10*",
+        "10*"
+      ],
+      "boundsStyle": [
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        },
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        }
+      ],
+      "yDomains": [
+        [
+          "-10",
+          "50"
+        ],
+        [
+          "-10",
+          "50"
+        ]
+      ],
+      "baseline": [
+        {
+          "puma": "03801",
+          "rent": 834,
+          "fill": "rgb(176, 196, 196)"
+        },
+        {
+          "puma": "03802",
+          "rent": 795,
+          "fill": "rgb(182, 201, 201)"
+        },
+        {
+          "puma": "03803",
+          "rent": 647,
+          "fill": "rgb(204, 221, 218)"
+        },
+        {
+          "puma": "03804",
+          "rent": 560,
+          "fill": "rgb(218, 232, 229)"
+        },
+        {
+          "puma": "03805",
+          "rent": 1584,
+          "fill": "rgb(69, 105, 112)"
+        },
+        {
+          "puma": "03806",
+          "rent": 1337,
+          "fill": "rgb(103, 134, 139)"
+        },
+        {
+          "puma": "03807",
+          "rent": 1434,
+          "fill": "rgb(90, 122, 129)"
+        },
+        {
+          "puma": "03808",
+          "rent": 1565,
+          "fill": "rgb(71, 107, 114)"
+        },
+        {
+          "puma": "03809",
+          "rent": 773,
+          "fill": "rgb(185, 204, 203)"
+        },
+        {
+          "puma": "03810",
+          "rent": 1758,
+          "fill": "rgb(44, 85, 94)"
+        }
+      ],
+      "note": "2010: PUMA 03810 ≥13.77%."
+    },
+    {
+      "year": 2011,
+      "marks": [
+        10,
+        10,
+        10
+      ],
+      "bounds": [
+        2,
+        2
+      ],
+      "labels": [
+        "08*",
+        "10*",
+        "08*",
+        "10*"
+      ],
+      "boundsStyle": [
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        },
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        },
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        },
+        {
+          "fill": "rgb(148, 184, 189)",
+          "dash": "none"
+        }
+      ],
+      "yDomains": [
+        [
+          "-10",
+          "50"
+        ],
+        [
+          "-10",
+          "50"
+        ]
+      ],
+      "baseline": [
+        {
+          "puma": "03801",
+          "rent": 834,
+          "fill": "rgb(176, 196, 196)"
+        },
+        {
+          "puma": "03802",
+          "rent": 795,
+          "fill": "rgb(182, 201, 201)"
+        },
+        {
+          "puma": "03803",
+          "rent": 647,
+          "fill": "rgb(204, 221, 218)"
+        },
+        {
+          "puma": "03804",
+          "rent": 560,
+          "fill": "rgb(218, 232, 229)"
+        },
+        {
+          "puma": "03805",
+          "rent": 1584,
+          "fill": "rgb(69, 105, 112)"
+        },
+        {
+          "puma": "03806",
+          "rent": 1337,
+          "fill": "rgb(103, 134, 139)"
+        },
+        {
+          "puma": "03807",
+          "rent": 1434,
+          "fill": "rgb(90, 122, 129)"
+        },
+        {
+          "puma": "03808",
+          "rent": 1565,
+          "fill": "rgb(71, 107, 114)"
+        },
+        {
+          "puma": "03809",
+          "rent": 773,
+          "fill": "rgb(185, 204, 203)"
+        },
+        {
+          "puma": "03810",
+          "rent": 1758,
+          "fill": "rgb(44, 85, 94)"
+        }
+      ],
+      "note": "2011: PUMA 03808 ≥27.80%; PUMA 03810 ≥13.77%."
+    }
+  ],
+  "linkingChecks": [
+    {
+      "view": "map",
+      "selectedMarks": 3
+    },
+    {
+      "view": "growth",
+      "selectedMarks": 3
+    },
+    {
+      "view": "burden",
+      "selectedMarks": 3
+    }
+  ],
+  "multiSelectionAndYearPersistence": "passed",
+  "clearSelection": "passed",
+  "narrow": {
+    "width": 360,
+    "scrollWidth": 360,
+    "marks": [
+      10,
+      10,
+      10
+    ]
+  },
+  "consoleIssues": [],
+  "screenshots": [],
+  "titleAndHoverCheck": {
+    "checkedAt": "2026-11-12T19:56:06.555Z",
+    "status": "passed",
+    "timings": [
+      {
+        "view": "map",
+        "measuredMs": 413.5
+      },
+      {
+        "view": "growth",
+        "measuredMs": 404
+      },
+      {
+        "view": "burden",
+        "measuredMs": 417.09999999962747
+      }
+    ],
+    "cancelsOnEarlyLeave": true,
+    "cancelsOnYearChange": true,
+    "pointerClickKeepsDelay": true,
+    "keyboardFocus": "immediate",
+    "ctrlSelection": "passed",
+    "layouts": [
+      {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "Manhattan Housing Growth, Rent Growth, and Rent Burden",
+        "labels": [
+          {
+            "puma": "03805",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03805",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "burden",
+            "outsideSvg": false
+          }
+        ],
+        "plots": [
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          },
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          }
+        ]
+      },
+      {
+        "width": 1100,
+        "scrollWidth": 1100,
+        "title": "Manhattan Housing Growth, Rent Growth, and Rent Burden",
+        "labels": [
+          {
+            "puma": "03805",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03805",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "burden",
+            "outsideSvg": false
+          }
+        ],
+        "plots": [
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          },
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "Manhattan Housing Growth, Rent Growth, and Rent Burden",
+        "labels": [
+          {
+            "puma": "03805",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03805",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "burden",
+            "outsideSvg": false
+          }
+        ],
+        "plots": [
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          },
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "scrollWidth": 360,
+        "title": "Manhattan Housing Growth, Rent Growth, and Rent Burden",
+        "labels": [
+          {
+            "puma": "03805",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "growth",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03801",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03802",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03803",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03804",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03805",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03806",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03807",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03808",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03809",
+            "view": "burden",
+            "outsideSvg": false
+          },
+          {
+            "puma": "03810",
+            "view": "burden",
+            "outsideSvg": false
+          }
+        ],
+        "plots": [
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          },
+          {
+            "height": 520,
+            "y": [
+              "-10",
+              "50"
+            ],
+            "ticks": [
+              "-10%",
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%",
+              "50%"
+            ],
+            "count": 10
+          }
+        ]
+      }
+    ],
+    "consoleIssues": []
+  },
+  "housingDiameterCheck": {
+    "checkedAt": "2026-11-12T18:30:18.982Z",
+    "status": "passed",
+    "encoding": "diameter proportional to total units, zero origin",
+    "checks": [
+      {
+        "year": 2007,
+        "bubbles": [
+          {
+            "puma": "03805",
+            "units": 140196,
+            "diameter": 43.42333097666902
+          },
+          {
+            "puma": "03806",
+            "units": 120828,
+            "diameter": 37.424421775578224
+          },
+          {
+            "puma": "03808",
+            "units": 97892,
+            "diameter": 30.32038514628152
+          },
+          {
+            "puma": "03807",
+            "units": 89862,
+            "diameter": 27.83322896677103
+          },
+          {
+            "puma": "03810",
+            "units": 81932,
+            "diameter": 25.377046089620578
+          },
+          {
+            "puma": "03809",
+            "units": 79303,
+            "diameter": 24.562757970575362
+          },
+          {
+            "puma": "03801",
+            "units": 76926,
+            "diameter": 23.826522573477426
+          },
+          {
+            "puma": "03803",
+            "units": 58360,
+            "diameter": 18.076019257314076
+          },
+          {
+            "puma": "03802",
+            "units": 53759,
+            "diameter": 16.65093761572905
+          },
+          {
+            "puma": "03804",
+            "units": 45291,
+            "diameter": 14.028118371881629
+          }
+        ],
+        "legend": [
+          15.486651180015487,
+          30.973302360030974,
+          46.45995354004646
+        ],
+        "note": "Diameter is proportional to total housing units · Same scale in every year.",
+        "y": [
+          [
+            "-10",
+            "50"
+          ],
+          [
+            "-10",
+            "50"
+          ]
+        ]
+      },
+      {
+        "year": 2008,
+        "bubbles": [
+          {
+            "puma": "03805",
+            "units": 139735,
+            "diameter": 43.28054405278928
+          },
+          {
+            "puma": "03806",
+            "units": 120485,
+            "diameter": 37.318183348483316
+          },
+          {
+            "puma": "03808",
+            "units": 99286,
+            "diameter": 30.752152981180355
+          },
+          {
+            "puma": "03807",
+            "units": 94251,
+            "diameter": 29.19264720735279
+          },
+          {
+            "puma": "03810",
+            "units": 86530,
+            "diameter": 26.8011985321348
+          },
+          {
+            "puma": "03809",
+            "units": 75983,
+            "diameter": 23.534444332222336
+          },
+          {
+            "puma": "03801",
+            "units": 74688,
+            "diameter": 23.133340066659933
+          },
+          {
+            "puma": "03803",
+            "units": 60731,
+            "diameter": 18.810396256270412
+          },
+          {
+            "puma": "03802",
+            "units": 51948,
+            "diameter": 16.09001110998889
+          },
+          {
+            "puma": "03804",
+            "units": 47305,
+            "diameter": 14.651920681412653
+          }
+        ],
+        "legend": [
+          15.486651180015487,
+          30.973302360030974,
+          46.45995354004646
+        ],
+        "note": "Diameter is proportional to total housing units · Same scale in every year.",
+        "y": [
+          [
+            "-10",
+            "50"
+          ],
+          [
+            "-10",
+            "50"
+          ]
+        ]
+      },
+      {
+        "year": 2009,
+        "bubbles": [
+          {
+            "puma": "03805",
+            "units": 148515,
+            "diameter": 46
+          },
+          {
+            "puma": "03806",
+            "units": 121744,
+            "diameter": 37.70813722519611
+          },
+          {
+            "puma": "03808",
+            "units": 99561,
+            "diameter": 30.837329562670433
+          },
+          {
+            "puma": "03807",
+            "units": 96805,
+            "diameter": 29.983705349627982
+          },
+          {
+            "puma": "03810",
+            "units": 87231,
+            "diameter": 27.01832138167862
+          },
+          {
+            "puma": "03809",
+            "units": 75622,
+            "diameter": 23.42263071070262
+          },
+          {
+            "puma": "03801",
+            "units": 75053,
+            "diameter": 23.246392620274047
+          },
+          {
+            "puma": "03803",
+            "units": 58424,
+            "diameter": 18.0958421708245
+          },
+          {
+            "puma": "03802",
+            "units": 49461,
+            "diameter": 15.31970508029492
+          },
+          {
+            "puma": "03804",
+            "units": 45868,
+            "diameter": 14.206834326499008
+          }
+        ],
+        "legend": [
+          15.486651180015487,
+          30.973302360030974,
+          46.45995354004646
+        ],
+        "note": "Diameter is proportional to total housing units · Same scale in every year.",
+        "y": [
+          [
+            "-10",
+            "50"
+          ],
+          [
+            "-10",
+            "50"
+          ]
+        ]
+      },
+      {
+        "year": 2010,
+        "bubbles": [
+          {
+            "puma": "03805",
+            "units": 139749,
+            "diameter": 43.284880315119686
+          },
+          {
+            "puma": "03806",
+            "units": 113725,
+            "diameter": 35.22438810894523
+          },
+          {
+            "puma": "03808",
+            "units": 96382,
+            "diameter": 29.85268828064505
+          },
+          {
+            "puma": "03807",
+            "units": 91373,
+            "diameter": 28.3012355654311
+          },
+          {
+            "puma": "03810",
+            "units": 89353,
+            "diameter": 27.675574857758473
+          },
+          {
+            "puma": "03809",
+            "units": 77816,
+            "diameter": 24.1021849644817
+          },
+          {
+            "puma": "03801",
+            "units": 75528,
+            "diameter": 23.393515806484192
+          },
+          {
+            "puma": "03803",
+            "units": 61313,
+            "diameter": 18.99066087600579
+          },
+          {
+            "puma": "03802",
+            "units": 53483,
+            "diameter": 16.565451301215365
+          },
+          {
+            "puma": "03804",
+            "units": 48240,
+            "diameter": 14.94152105847894
+          }
+        ],
+        "legend": [
+          15.486651180015487,
+          30.973302360030974,
+          46.45995354004646
+        ],
+        "note": "Diameter is proportional to total housing units · Same scale in every year.",
+        "y": [
+          [
+            "-10",
+            "50"
+          ],
+          [
+            "-10",
+            "50"
+          ]
+        ]
+      },
+      {
+        "year": 2011,
+        "bubbles": [
+          {
+            "puma": "03805",
+            "units": 136145,
+            "diameter": 42.16860249806417
+          },
+          {
+            "puma": "03806",
+            "units": 114497,
+            "diameter": 35.46350200316466
+          },
+          {
+            "puma": "03807",
+            "units": 97382,
+            "diameter": 30.162421304245363
+          },
+          {
+            "puma": "03808",
+            "units": 96779,
+            "diameter": 29.975652291014374
+          },
+          {
+            "puma": "03810",
+            "units": 88907,
+            "diameter": 27.53743392923274
+          },
+          {
+            "puma": "03809",
+            "units": 78091,
+            "diameter": 24.187361545971786
+          },
+          {
+            "puma": "03801",
+            "units": 73189,
+            "diameter": 22.66905026428307
+          },
+          {
+            "puma": "03803",
+            "units": 60128,
+            "diameter": 18.623627243039426
+          },
+          {
+            "puma": "03802",
+            "units": 50669,
+            "diameter": 15.693862572804095
+          },
+          {
+            "puma": "03804",
+            "units": 50390,
+            "diameter": 15.607447059219608
+          }
+        ],
+        "legend": [
+          15.486651180015487,
+          30.973302360030974,
+          46.45995354004646
+        ],
+        "note": "Diameter is proportional to total housing units · Same scale in every year.",
+        "y": [
+          [
+            "-10",
+            "50"
+          ],
+          [
+            "-10",
+            "50"
+          ]
+        ]
+      }
+    ],
+    "ctrlSelection": "passed",
+    "consoleIssues": []
+  }
+}

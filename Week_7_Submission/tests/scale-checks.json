@@ -1,0 +1,17 @@
+{
+  "change": "Fit scatterplot percentage axes to the selected year pair",
+  "automatedChecks": {
+    "command": "node --test Week_7_Submission/tests/model.test.mjs",
+    "passed": 13,
+    "failed": 0,
+    "scope": [
+      "All 171 year pairs have finite padded domains covering plotted values and bounds",
+      "Changing either year changes fitted domains; short periods use tighter ranges",
+      "Both scatterplots use the same period-specific rent-growth domain",
+      "Missing growth does not add zero or invisible X outliers",
+      "Constant, all-zero, empty, and bound-only inputs retain valid domains",
+      "Historical map geometry, year selection and bound formatting regressions"
+    ]
+  },
+  "browserVerification": "Not performed; the earlier browser authorization denial remains in effect."
+}

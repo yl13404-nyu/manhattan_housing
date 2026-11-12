@@ -1,0 +1,26 @@
+{
+  "change": "Fourth chart: four geographic color families, within-family shade based on 2006 median rent, metric line styles, endpoint labels, PUMA hover highlighting, bounds as disconnected points",
+  "metrics": ["rent growth from selected baseline", "annual rent burden share", "housing stock growth from selected baseline"],
+  "automatedChecks": {
+    "command": "node --test Week_7_Submission/tests/model.test.mjs Week_7_Submission/tests/trend.test.mjs",
+    "passed": 20,
+    "failed": 0,
+    "scope": [
+      "All 171 periods and ten PUMAs reconcile to annual and comparison data",
+      "Single, multiple, all and empty selections; three independent metric series per PUMA",
+      "Changing baseline resets both growth measures without redefining annual burden",
+      "D3-generated line paths break across 2020",
+      "Rent bounds remain isolated labeled points, breaking lines on both sides",
+      "PUMA colors and metric dash patterns remain stable across dates and selection order",
+      "Four specified PUMA groups have shared hues; higher 2006 rent gives darker shades within each group; north-to-south saturation increases",
+      "All 30 endpoint labels fit the chart height without overlap in every period, without moving data points",
+      "Domains contain all selected values and bounds",
+      "Existing year, percentage-scale and map-geometry regression checks"
+    ]
+  },
+  "browserVerification": {
+    "status": "not_performed",
+    "reason": "Earlier browser permission was declined; no alternate browser route was attempted.",
+    "unverified": ["Actual selection and hover events", "Normal and narrow viewport rendering", "Tooltip placement", "Visual label and leader placement"]
+  }
+}

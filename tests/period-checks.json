@@ -1,0 +1,27 @@
+{
+  "change": "Adjustable baseline and endpoint, ACS 2006-2025 excluding 2020",
+  "defaultPeriod": [2006, 2025],
+  "selectableYearPairs": 171,
+  "automatedChecks": {
+    "command": "node --test Week_7_Submission/tests/model.test.mjs scripts/test_extension.mjs",
+    "passed": 18,
+    "failed": 0,
+    "scope": [
+      "All year pairs join to their own annual baseline and endpoint",
+      "All valid baseline and endpoint options; 2020 omitted, 2025 endpoint only",
+      "Invalid endpoints advance to next valid year after baseline",
+      "Fixed domains contain all exact values and both types of bound",
+      "Censored baseline map rents are explicit lower bounds",
+      "Upper/lower growth bounds retain at-most/at-least labels",
+      "Unavailable growth stays null",
+      "Existing historical map geometry is preserved",
+      "Original and extended dataset consistency, CSV/JSON and raw data reconciliation"
+    ]
+  },
+  "browserVerification": {
+    "status": "not_performed",
+    "reason": "Previous localhost browser-origin authorization was declined. No retry or alternate browser route was attempted.",
+    "unverified": ["Rendered desktop and mobile layout", "Actual select-control events", "Tooltip placement and cross-chart selection in a browser"]
+  },
+  "historicalBrowserEvidence": "browser-checks.json and existing screenshots describe the previous 2006-2011 interface only."
+}

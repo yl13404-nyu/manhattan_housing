@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare two years of housing growth, gross rent and rent burden across ten Manhattan project areas, using ACS 2006–2025 estimates, excluding 2020.">
+  <title>Manhattan Housing Growth, Rent Growth, and Rent Burden · 2006–2025</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b6069'/%3E%3Cpath d='M8 24V12l8-7 8 7v12h-6v-8h-4v8z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=four-families-20261112">
+  <script defer src="vendor/d3.v7.min.js"></script>
+  <script type="module" src="js/app.mjs?v=four-families-20261112"></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="page-header">
+      <div class="eyebrow"><span class="brand-mark" aria-hidden="true"></span> MANHATTAN / HOUSING RESEARCH</div>
+      <div class="header-main">
+        <div>
+          <h1>Manhattan Housing Growth, Rent Growth, and Rent Burden</h1>
+        </div>
+        <div class="source-stamp">U.S. CENSUS BUREAU<span>ACS 1-year estimates · 2006–2025</span></div>
+      </div>
+    </header>
+
+    <div id="load-status" class="load-status" role="status">Loading Manhattan data…</div>
+    <section id="dashboard" hidden aria-label="Interactive Manhattan housing dashboard">
+      <div class="controls">
+        <div class="period-block"><span class="control-caption">COMPARISON PERIOD</span><strong><span id="base-year">2006</span> <span class="period-arrow" aria-hidden="true">→</span> <span id="end-year">2025</span></strong></div>
+        <div class="year-controls">
+          <div class="year-field"><label class="control-caption" for="base-year-select">BASE YEAR</label><select id="base-year-select" aria-describedby="year-help"></select></div>
+          <span class="year-separator" aria-hidden="true">→</span>
+          <div class="year-field"><label class="control-caption" for="end-year-select">END YEAR</label><select id="end-year-select" aria-describedby="year-help"></select></div>
+          <p id="year-help">Choose a later end year · 2020 unavailable</p>
+        </div>
+        <div class="selection-controls"><span id="selection-status" aria-live="polite">All 10 areas</span><button type="button" id="clear-selection" disabled><span aria-hidden="true">↺</span> Clear selection</button></div>
+      </div>
+
+      <div class="reading-guide"><p>Click to select across all views · Ctrl-click to select more</p><p>Axes fit selected years · Shared rent-growth scale</p></div>
+
+      <div class="dashboard-grid">
+        <section class="view-panel map-panel" aria-labelledby="map-title">
+          <div class="view-heading"><span class="view-number">01</span><div><h2 id="map-title">Baseline median rent</h2><p><span class="baseline-year">2006</span> median monthly gross rent · USD</p></div></div>
+          <div class="chart-host map-host" id="map-chart"></div>
+          <div class="map-legend"><span class="legend-heading"><span class="baseline-year">2006</span> median monthly gross rent</span><svg id="map-legend" aria-label="2006 median monthly gross rent color legend in dollars"></svg></div>
+          <p class="view-footnote">Areas 01–10 · * rent lower bound; color uses that bound.</p>
+        </section>
+
+        <div class="comparison-group">
+          <section class="view-panel scatter-panel" aria-labelledby="growth-title">
+            <div class="view-heading"><span class="view-number">02</span><div><h2 id="growth-title">Growth & housing scale</h2><p>Housing vs. nominal rent growth · <span class="period-label">2006 → 2025</span></p></div></div>
+            <div class="chart-host" id="growth-chart"></div>
+            <div class="size-legend"><span class="legend-heading">Bubble diameter = housing units · <span class="endpoint-year">2025</span></span><svg id="size-legend" aria-label="Bubble diameters are proportional to total housing units: 50,000, 100,000 and 150,000"></svg></div>
+          </section>
+
+          <section class="view-panel scatter-panel" aria-labelledby="burden-title">
+            <div class="view-heading"><span class="view-number">03</span><div><h2 id="burden-title">Baseline rent burden</h2><p><span class="baseline-year">2006</span> burden vs. rent growth · <span class="period-label">2006 → 2025</span></p></div></div>
+            <div class="chart-host" id="burden-chart"></div>
+            <div class="region-legend"><div id="region-legend" class="region-items"></div></div>
+            <p class="view-footnote">Rent burden = gross rent ≥30% of household income.</p>
+          </section>
+        </div>
+      </div>
+
+      <section class="view-panel trend-panel" aria-labelledby="trend-title">
+        <div class="view-heading"><span class="view-number">04</span><div><h2 id="trend-title">Selected PUMA trends</h2><p><span class="period-label">2006 → 2025</span> · Growth relative to <span class="baseline-year">2006</span> · Annual rent burden</p></div></div>
+        <div class="trend-toolbar">
+          <div><span class="control-caption" id="trend-select-label">SELECT ONE OR MORE PUMAS</span><div id="trend-puma-controls" class="trend-puma-controls" role="group" aria-labelledby="trend-select-label"></div></div>
+          <div id="trend-metric-legend" class="trend-metric-legend" aria-label="Line styles and marker shapes identify metrics; colors identify PUMAs"></div>
+        </div>
+        <div class="trend-color-key"><span id="trend-color-legend" class="trend-color-legend" aria-label="Four PUMA color families, north to south"></span><span>North → south: soft → vivid · Within each family, higher 2006 median rent = darker</span></div>
+        <p id="trend-selection-status" class="trend-selection-status" role="status">No PUMA selected</p>
+        <div id="trend-empty" class="trend-empty">Select a PUMA above or in the charts to see three trend lines. Use these buttons or Ctrl-click to compare multiple PUMAs.</div>
+        <div id="trend-chart" class="chart-host trend-host" hidden></div>
+        <p class="view-footnote">Color identifies PUMA; solid = rent growth, dashed = burden, dash-dot = housing growth. Hover a PUMA button or curve to highlight its three series; end labels show PUMA codes. Hollow starred rent points are bounds and have no connecting lines. Missing years remain gaps. Housing growth is net stock change, not new construction. All values are percentages.</p>
+      </section>
+
+      <footer class="page-footer">
+        <div class="bound-footnote"><p><strong>* Rent-growth bounds.</strong> Starred points show a lower or upper bound, with “at least” or “at most” in details. Bounds reflect rent coding, not confidence intervals. Areas with no computable growth remain on the map. <span id="bounds-status" role="status"></span></p><p>Source PUMAs are paired to ten project areas without boundary adjustment. The map retains 2000 boundaries.</p></div>
+      </footer>
+    </section>
+    <noscript>This dashboard requires JavaScript to display its coordinated D3 views.</noscript>
+  </main>
+  <aside id="detail-tooltip" class="detail-tooltip" role="tooltip" hidden></aside>
+  <aside id="trend-tooltip" class="detail-tooltip trend-tooltip" role="tooltip" hidden></aside>
+</body>
+</html>
